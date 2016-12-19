@@ -1,16 +1,16 @@
-table {
+.form_container table {
 	border-collapse: collapse;
 	margin: 30px;
 }
 
-th, td {
+.form_container th, td {
     padding: 15px;
     text-align: left;
     border: 1px solid #ddd;
     border-collapse: collapse;
 }
 
-td, tr {
+.form_container td, tr {
 	font-weight: bold;
 }
 
