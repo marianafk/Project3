@@ -1,10 +1,8 @@
-<html>
-   
-   <head>
-      <title>Contact Form</title>
-      <link rel="stylesheet" href="css/styles.css">
+<?php 
+  $currentPage = "Contact Form";
+  include "inc/top.inc"; 
+?>
 
-      <h1>Contact Form</h1>
       <script type="text/javascript">
 
       //Make sure the email is correct
@@ -62,35 +60,46 @@
 
       </script>
 
-      
    </head>
    
    <body>
-      <form action="database-write.php" name="myForm" id="myForm" onsubmit="return(validate());">
-         <table>
+      <div class = "form_container">
+
+         <header>
+            <h1>Contact Form</h1>
+         </header>
+
+         <?php 
+            $currentPage = "contact";
+            include "inc/nav.inc"; 
+         ?>
+
+         <form action="database-write.php" name="myForm" id="myForm" onsubmit="return(validate());">
+            <table>
             
-            <tr>
-               <td>Name: <input type="text" name="name" placeholder="Name here" /></td>
-            </tr>
+               <tr>
+                  <td>Name: <input type="text" name="name" placeholder="Name here" /></td>
+               </tr>
             
-            <tr>
-               <td>Email: <input type="text" name="email" placeholder="abc@email.com" /></td>
-            </tr>
+               <tr>
+                  <td>Email: <input type="text" name="email" placeholder="abc@email.com" /></td>
+               </tr>
             
-            <tr>
-               <td>Phone: <input type="text" name="phone" placeholder="###-###-####" /></td>
-            </tr>
+               <tr>
+                  <td>Phone: <input type="text" name="phone" placeholder="###-###-####" /></td>
+               </tr>
            
+            </table>
+
+            <input class="button" type="submit" value="Submit" />
+         </form>
+
+         <table>
+            <tr>
+               <td><p>Message:</p><textarea form="myForm" name="message" rows="10" cols="50" wrap="soft" placeholder="Your message here"></textarea></td>
+            </tr>
          </table>
 
-         <input class="button" type="submit" value="Submit" />
-      </form>
-
-      <table>
-         <tr>
-            <td><p>Message:</p><textarea form="myForm" name="message" rows="10" cols="50" wrap="soft" placeholder="Your message here"></textarea></td>
-         </tr>
-      </table>
-      
-   </body>
-</html>
+      <?php
+         include "inc/bottom.inc";
+      ?>
