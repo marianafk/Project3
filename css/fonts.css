@@ -1,17 +1,12 @@
 
 /*Font for headings */
-h1 {
+h1, h2, h3 {
 	font-family: 'Merriweather Sans', sans-serif;
 }
 
 /*Font for regular text */
 body {
 	font-family: 'Open Sans', sans-serif;
-}
-
-/* Font for headings */
-h2 {
-	font-family: 'Merriweather Sans', sans-serif;
 }
 
 /* Font for navigation bar */
