@@ -1,6 +1,46 @@
+
+/*************************
+	BASE STYLES
+***************************/
+
+
+/*Container of whole page */
+.container, .form_container {
+	margin: 0 auto;
+	width: 90%;
+	max-width: 960px;
+}
+
+/*************************
+	MODULE STYLES
+***************************/
+
+/* Nav Bar */
+.menu-bar ul {
+	list-style-type: none;
+	margin-bottom: 30px;
+	overflow: hidden;
+	background-color: #333333;
+}
+
+.menu-bar li {
+	float: left;
+}
+
+.menu-bar li a {
+	display: block;
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	padding: 20px;
+}
+
+/* Tables */
+/* For contact form and to display DB information */
+/* Used in contact-form.php and database-read.php */
 .form_container table {
 	border-collapse: collapse;
-	margin: 30px;
+	margin-top: 30px;
 }
 
 .form_container th, td {
@@ -18,4 +58,19 @@ body {
 	background-color: #e6e6e6;
 }
 
+/*************************
+	LAYOUT STYLES
+***************************/
+
+
+
+/*************************
+	STATE STYLES
+***************************/
+
+/* Current page in nav bar */
+.active {
+	background-color: darkgray;
+	color: white;
+}
 
