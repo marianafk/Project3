@@ -1,6 +1,4 @@
 <?php
-	error_reporting(E_ALL);
-	ini_set('display_errors', 1);
 
 	// 1. Create a database connection
 	$dbhost = "localhost";
@@ -18,15 +16,24 @@
 	$result = mysqli_query($connection, $query);
 	
 ?>
-
-<!doctype html>
-<html>
-	<head>
-		<title>Contact Form</title>
+	<?php 
+  		$currentPage = "DB Info";
+  		include "inc/top.inc"; 
+	?>
+	
 	</head>
 	<body>
 
-		<h1>Contact Form</h1>
+		<div class = "form_container">
+		
+		<header>
+			<h1>Database Information</h1>
+		</header>
+
+		<?php 
+  			$currentPage = "index";
+  			include "inc/nav.inc"; 
+		?>
 
 		<table border>
 			<tr>
@@ -55,11 +62,9 @@
 
 		</table>
 
-	<br>
-	<a href="index.php">Back to the Index</a>
-
-</body>
-</html>
+<?php
+	include "inc/bottom.inc";
+?>
 
 <?php
 	// 4. Release returned data
