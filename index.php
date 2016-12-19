@@ -9,7 +9,7 @@
   	<div class = "container">
     
       <header>
-        <h1><a href="index.php">Project 3</a></h1>
+        <h1>Project 3</a></h1>
       </header>
 
 <?php 

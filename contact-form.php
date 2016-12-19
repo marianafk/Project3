@@ -74,6 +74,7 @@
             include "inc/nav.inc"; 
          ?>
 
+         <h2>Provide the following info:</h2>
          <form action="database-write.php" name="myForm" id="myForm" onsubmit="return(validate());">
             <table>
             

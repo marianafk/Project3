@@ -31,7 +31,6 @@
 		</header>
 
 		<?php 
-  			$currentPage = "index";
   			include "inc/nav.inc"; 
 		?>
 
