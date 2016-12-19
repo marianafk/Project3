@@ -20,21 +20,14 @@
   		$currentPage = "DB Info";
   		include "inc/top.inc"; 
 	?>
-	
-	</head>
-	<body>
 
-		<div class = "form_container">
-		
-		<header>
-			<h1>Database Information</h1>
-		</header>
+	<?php 
+  		include "inc/nav.inc"; 
+	?>
 
-		<?php 
-  			include "inc/nav.inc"; 
-		?>
+	<h2>Database Information</h2>
 
-		<table border>
+		<table>
 			<tr>
 				<th>Id</th>
 				<th>Name</th>
