@@ -7,6 +7,8 @@
 
     <link rel="stylesheet" href="css/styles.css">
 
+    <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,400i,700,700i|Open+Sans:400,400i,700,700i" rel="stylesheet">
+
     <title> <?php echo "$currentPage"; ?> </title>
 
 
