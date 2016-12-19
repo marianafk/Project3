@@ -1,5 +1,5 @@
 
-/*Font for poster text */
+/*Font for headings */
 h1 {
 	font-family: 'Merriweather Sans', sans-serif;
 }
@@ -9,7 +9,17 @@ body {
 	font-family: 'Open Sans', sans-serif;
 }
 
-/* Font for poster text */
+/* Font for headings */
 h2 {
 	font-family: 'Merriweather Sans', sans-serif;
+}
+
+/* Font for navigation bar */
+.menu-bar li a {
+	font-family: 'Lato', sans-serif;
+}
+
+/* Font for the buttons */
+.button {
+	font-family: 'Lato', sans-serif;
 }
