@@ -8,19 +8,43 @@
   include "inc/nav.inc"; 
 ?>
 
-<h2>Home Page - Major Accomplishments</h2>
+<div class="section1">
+	<h2>Home Page - Some Accomplishments</h2>
 
-<nav class="sub-menu">
-	<ul>
-		<li><a href="#tennis">Tennis</a></li>
-		<li><a href="#first-job">First Job</a></li>
-		<li><a href="#constellation">CBI</a></li>
-		<li><a href="#car">My Car</a></li>
-	</ul>
-</nav>
-<br>
+	<div id="part13">
+		<h3>USTA Ladies League</h3>
+		<img src=images/league.jpg alt="Playing the league">
+		<p>This semester, I was able to join a tennis league for women with one of my best friends. We got to play more than 6 matches and helped the team become one of the top 2 in the league. We're still waiting to play the last match. The greatest part about this achievement was that we were not doing it for ourselves, we were helping our friends because they had some spots open on their team, and they needed people to play. It turned out to be a great experience for us, we even plan our weekends around it. We would always go together, take a quick shower, and then go have dinner as a reward.</p>
 
+		<h4>Gingerbread Cookies</h4>
+		<div id="part3">
+			<p>Last week was the first time I made gingerbread cookies. My friend Lauren and I had a hard time decorating each and one of the 50 cookies we ended up making. The start was rough, the first 5 gingerbread man we decorated didn't look happy at all. But at the end we were proud of the results.</p>
+		</div>
+
+	</div>
+
+	<div id="part24">
+		<h4>Mary Hosking Invitational</h4>
+			<p>At the beginning of this semester, I won an individual tennis tournament when my team and I went to William Smith College, it was our first tournament of the fall season. Another one of my teammates got to win her flight too. Our coaches were very happy with our results.<p>
+		<img src=images/invitational.jpg alt="Mary Hosking Invitational">
+
+		<h4>My first iOS app</h4>
+			<p>I just developed my first iOS app while taking the Mobile Development course. The purpose of my app was to let users know when their groceries were going to expire.</p>
+	</div>
+
+
+</div>
 <div class="section2">
+	<h2>Home Page - Major Accomplishments</h2>
+
+	<nav class="sub-menu">
+		<ul>
+			<li><a href="#tennis">Tennis</a></li>
+			<li><a href="#first-job">First Job</a></li>
+			<li><a href="#constellation">CBI</a></li>
+			<li><a href="#car">My Car</a></li>
+		</ul>
+	</nav>
 	<ul>
 		<li id="tennis">
 			<img src="images/tennis.jpg" alt="Tennis pic">

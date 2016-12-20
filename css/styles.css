@@ -18,9 +18,14 @@ h3 {
 	color: #4da6ff;
 }
 
+h4 {
+	font-size: 1.1em;
+	color: #66b4ff;
+}
+
 body {
 	color: #0066cc;
-	background-color: #b3d9ff;
+	background-color: #99ceff;
 }
 
 /*Container of whole page */
@@ -32,6 +37,18 @@ body {
 
 hr {
 	border: 1px solid #0066cc;
+}
+
+.section1 {
+	padding: 50px;
+	padding-top: 20px;
+	background-color: #b3daff;
+}
+
+.section2 {
+	padding: 50px;
+	padding-top: 20px;
+	background-color: #cce6ff;
 }
 
 /*************************
@@ -70,7 +87,7 @@ table {
 th, td {
     padding: 20px;
     text-align: left;
-    border: 1px solid #99ccff;
+    border: 1px solid #66b5ff;
     border-collapse: collapse;
 }
 
@@ -81,7 +98,7 @@ td, tr {
 .button {
 	background-color: #0059b3;
 	border: none;
-	color: black;
+	color: white;
 	padding: 15px;
 	text-align: center;
 	text-decoration: none;
@@ -124,13 +141,13 @@ textarea {
 	list-style-type: none;
 	margin-bottom: 30px;
 	background-color: #0066cc;
-	width: 15%;
 	padding: 0px;
 	border: 1px solid #004080;
 	border-collapse: collapse;
 }
 
 .sub-menu li {
+	display: block;
 	padding: 10px;
 	border: 1px solid #004080;
 	border-collapse: collapse;
@@ -142,7 +159,6 @@ textarea {
 	color: white;
 }
 
-
 .section2 img {
 	float: right;
 	height: 200px;
@@ -153,6 +169,47 @@ textarea {
 .section2 ul {
 	list-style-type: none;
 	padding: 0px;
+}
+
+#part13, #part24 {
+	display: table-cell;
+	vertical-align: top;
+}
+
+#part13 {
+	margin-right: 10px;
+	width: 65%;
+	padding: 15px;
+}
+
+#part13 img {
+	float: right;
+	height: 200px;
+	width: 300px;
+	overflow: hidden;
+	padding: 10px;
+
+}
+
+#part3 {
+	font-size: 14px;
+}
+
+#part24 {
+	padding: 15px;
+	font-size: 14px;
+}
+
+#part24 img {
+	height: 150px;
+	width: 270px;
+	overflow: hidden;
+	display: block;
+	margin: auto;
+	padding-top: 10px;
+	padding-bottom: 30px;
+
+
 }
 
 
