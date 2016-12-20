@@ -161,6 +161,7 @@
 </script>
 <script src="js/main.js"></script> <!-- Resource jQuery -->
 <footer>
+	<hr>
 	<br>
 	<p>Mariana Flores Kim - Project 3</p>
 	<br>
