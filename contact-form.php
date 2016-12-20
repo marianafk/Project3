@@ -69,7 +69,7 @@
 
 <h2>Contact Form</h2>
 
-   <form action="database-write.php" name="myForm" id="myForm" onsubmit="return(validate());">
+   <form action="database-write.php" name="myForm" id="myForm" method="post" onsubmit="return(validate());">
       <table>
       
          <tr>
