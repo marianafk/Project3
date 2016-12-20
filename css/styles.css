@@ -136,7 +136,51 @@ textarea {
 /*************************
 	LAYOUT STYLES
 ***************************/
-/* How to show the links to each part of the F pattern section */
+
+
+/* 1.   H O M E     P A G E    */
+
+/******* SECTION 1 *******/
+
+#part13, #part24 {
+	display: table-cell;
+	vertical-align: top;
+}
+
+#part13 {
+	margin-right: 10px;
+	width: 65%;
+	padding: 15px;
+}
+
+#part13 img {
+	float: right;
+	height: 200px;
+	width: 300px;
+	overflow: hidden;
+	padding: 10px;
+}
+
+#part3 {
+	font-size: 14px;
+}
+
+#part24 {
+	padding: 15px;
+	font-size: 14px;
+}
+
+#part24 img {
+	height: 150px;
+	width: 270px;
+	overflow: hidden;
+	display: block;
+	margin: auto;
+	padding-top: 10px;
+	padding-bottom: 30px;
+}
+
+/********* SECTION 2 **********/
 .sub-menu ul {
 	list-style-type: none;
 	margin-bottom: 30px;
@@ -171,45 +215,67 @@ textarea {
 	padding: 0px;
 }
 
-#part13, #part24 {
-	display: table-cell;
-	vertical-align: top;
+
+/* 1.   P O R T F O L I O     P A G E    */
+
+.portfolio p {
+	font-size: 12px;
 }
 
-#part13 {
-	margin-right: 10px;
-	width: 65%;
-	padding: 15px;
-}
-
-#part13 img {
-	float: right;
-	height: 200px;
+.portfolio img {
+	height: 300px;
 	width: 300px;
 	overflow: hidden;
-	padding: 10px;
-
-}
-
-#part3 {
-	font-size: 14px;
-}
-
-#part24 {
-	padding: 15px;
-	font-size: 14px;
-}
-
-#part24 img {
-	height: 150px;
-	width: 270px;
-	overflow: hidden;
-	display: block;
 	margin: auto;
-	padding-top: 10px;
-	padding-bottom: 30px;
+	display: block;
+}
 
+#one, #two {
+	display: table-cell;
+	vertical-align: top;
+	width: 50%;
+}
 
+#one {
+	padding: 40px;
+	background-color: #b3daff;
+}
+
+#two {
+	padding: 40px;
+	background-color: #cce6ff;
+}
+
+#three, #four {
+	display: table-cell;
+	vertical-align: top;
+	width: 50%;
+}
+
+#three {
+	padding: 40px;
+	background-color: #cce6ff;
+}
+
+#four {
+	padding: 40px;
+	background-color: #b3daff;
+}
+
+#five , #six {
+	display: table-cell;
+	vertical-align: top;
+	width: 50%;
+}
+
+#five {
+	padding: 40px;
+	background-color: #b3daff;
+}
+
+#six {
+	padding: 40px;
+	background-color: #cce6ff;
 }
 
 
